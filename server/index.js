@@ -7,7 +7,7 @@ const path = require('path')
 
 const app = express()
 const directoryToServe = 'client'
-const port = 3443
+const port = 443
 
 app.use('/', express.static(path.join(__dirname, '..', directoryToServe)))
 
